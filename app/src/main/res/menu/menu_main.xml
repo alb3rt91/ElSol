@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_more"
+        android:title="Opciones"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_compare_planets"
+                android:title="Comparar Planetas" />
+        </menu>
+    </item>
+</menu>
